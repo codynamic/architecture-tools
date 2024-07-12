@@ -1,1 +1,12 @@
-{}
+{
+    "id": "codynamic-architecture-tools",
+    "version": "1.0.0",
+    "name": "Codynamic Architecture Tools",
+    "description": "A template to build great architecture documentation",
+    "documentationURL": "https://github.com/codynamic/architecture-tools/tree/main/src/architecture-tools",
+    "licenseURL": "https://github.com/codynamic/architecture-tools/blob/main/LICENSE",
+    "options": {},
+    "platforms": [
+        "Any"
+    ]
+}
