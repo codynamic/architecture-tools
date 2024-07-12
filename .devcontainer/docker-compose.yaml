@@ -1,0 +1,14 @@
+version: '3'
+services:
+  tools:
+    build: .
+    command: sleep infinity
+    volumes:
+      - ..:/workspace:cached
+    links:
+      - kroki
+
+  kroki:
+    image: yuzutech/kroki
+    ports:
+      - 8000:8000

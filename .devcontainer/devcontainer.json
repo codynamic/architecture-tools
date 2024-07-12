@@ -1,0 +1,26 @@
+{
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "tools",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "plantuml.jar": "/plantuml/plantuml-nodot.1.2022.14.jar",
+                "plantuml.render": "Local",
+                "asciidoc.extensions.enableKroki": true,
+                "asciidoc.preview.asciidoctorAttributes": {
+                    "allow-uri-read": true,
+                    "kroki-server-url": "http://kroki:8000",
+                    "kroki-http-method": "post",
+                    "kroki-default-options": "inline",
+                    "kroki-fetch-diagram": false
+                }
+            },
+            "extensions": [
+                "jebbs.plantuml",
+                "asciidoctor.asciidoctor-vscode",
+                "tomoki1207.pdf"
+            ]
+        }
+    }
+}
