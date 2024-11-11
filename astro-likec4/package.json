@@ -22,6 +22,7 @@
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "likec4": "^1.16.0"
+    "likec4": "^1.16.0",
+    "rollup-plugin-shell": "^1.0.9"
   }
 }
